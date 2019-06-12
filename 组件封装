@@ -117,3 +117,8 @@ $.fn.combobox.defaults = {
     onLoadSuccess: function () { },
     onChange: function (value) { }
 };
+
+====================================================================
+innerhTML属性与outerHTML属性都有可以通过prop方法获得
+innerHTML意思是当前节点下的所有内容  不包括自身
+outerHTML意思是当前节点外的所有节点  包括自身
